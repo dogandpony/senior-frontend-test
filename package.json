@@ -1,0 +1,13 @@
+{
+  "name": "dps-senior-frontend-test",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "nuxt": "^2.14.6",
+    "tailwindcss": "^1.8.10"
+  }
+}
