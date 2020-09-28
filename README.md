@@ -27,7 +27,7 @@ To recreate the design and functionality of a generic office-listings page. Plea
 
 ## Deadline
 
-Please submit your test as a Github repository URL, along with a readme file containing instructions on how to set up and run your application. The deadline for submissions is **Monday, 5th of October**. _Submissions will not be accepted after this date._
+Please submit your test as a Github repository URL, along with a readme file containing instructions on how to set up and run your application. The deadline for submissions is **Monday, 12th of October**. _Submissions will not be accepted after this date._
 
 
 ## Tips
