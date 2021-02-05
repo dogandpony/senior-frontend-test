@@ -9,13 +9,13 @@ This test consists of a series of tasks which may take between 2–4 hours to co
 
 ## Scenario
 
-To recreate the design and functionality of a generic office-listings page. Please navigate through the [interactive prototype](https://www.figma.com/proto/VU2BJHrMmoSEdQmMa1EbYP/Front-end-Test?node-id=451%3A336&viewport=767%2C416%2C0.5802898406982422&scaling=min-zoom) to better understand the scope and requirements.
+To recreate the design and functionality of a generic office-listings page. Please navigate through the [interactive prototype](https://www.figma.com/proto/VU2BJHrMmoSEdQmMa1EbYP/Front-end-Test?node-id=451%3A336&viewport=767%2C416%2C0.5802898406982422&scaling=min-zoom) to better understand the scope and requirements. 
 
 
 ## Tasks
 
 1. Fork this repository (to jump-start your test)
-1. Recreate [the design](https://www.figma.com/proto/VU2BJHrMmoSEdQmMa1EbYP/Front-end-Test?node-id=451%3A336&viewport=767%2C416%2C0.5802898406982422&scaling=min-zoom) using [Vue.js](https://vuejs.org/) and [TailwindCSS](https://tailwindcss.com/)
+1. Recreate [the design](https://www.figma.com/file/VU2BJHrMmoSEdQmMa1EbYP/Front-end-Test?node-id=2253%3A2129) using [Vue.js](https://vuejs.org/) and [TailwindCSS](https://tailwindcss.com/)
 1. Populate the office listings from a datasource (JSON or hard-coded array)
 1. Recreate the following interactivity
     1. Toggle open/close office cards
@@ -27,9 +27,9 @@ To recreate the design and functionality of a generic office-listings page. Plea
 
 ## Deadline
 
-Please submit your test as a Github repository URL, along with a readme file containing instructions on how to set up and run your application. If you'd like to submit a _private repository_, please remember to add [Caio](https://github.com/CaioCosta) and [Bill](https://github.com/billaddison) with viewer access to the repository. 
+Please submit your test as a Github repository URL, along with a readme file containing instructions on how to set up and run your application. If you'd like to submit a _private repository_, please add [Caio](https://github.com/CaioCosta) and [Bill](https://github.com/billaddison) with view access to the private repository. 
 
-The deadline for submissions is **Monday, 12th of October**. _Submissions will not be accepted after this date._
+The deadline for submissions is **Monday, 22th of February**. _Submissions will not be accepted after this date._ Applications will be evaluated in order of receipt. For applicants who meet our requirements, interviews will be conducted as soon as the test has been evaluated. Note we have a limit of 3 positions available. 
 
 
 ## Tips
@@ -37,9 +37,9 @@ The deadline for submissions is **Monday, 12th of October**. _Submissions will n
 - Keep it simple
 - Data persistence is not required
 - Please ensure your readme file contains valid and simple instructions
-- Please use placeholder data only (i.e. do not use real or identifiable places)
+- Please use placeholder data only (i.e. do not use real or identifiable information)
 - Feel free to validate fields according to your own validation logic
-- Verify your application fully functions prior to submission
+- Verify the full functionality of your application prior to submission
 
 
 ## Submissions
