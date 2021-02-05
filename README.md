@@ -9,7 +9,7 @@ This test consists of a series of tasks which may take between 2–4 hours to co
 
 ## Scenario
 
-To recreate the design and functionality of a generic office-listings page. Please navigate through the [interactive prototype](https://www.figma.com/proto/VU2BJHrMmoSEdQmMa1EbYP/Front-end-Test?node-id=451%3A336&viewport=767%2C416%2C0.5802898406982422&scaling=min-zoom) to better understand the scope and requirements. 
+To recreate the design and functionality of a generic office-listings page. Please navigate through the [interactive prototype](https://www.figma.com/proto/VU2BJHrMmoSEdQmMa1EbYP/Front-end-Test?node-id=2253%3A2129&viewport=-4357%2C528%2C0.5&scaling=min-zoom) to better understand the scope and requirements. 
 
 
 ## Tasks
@@ -44,4 +44,4 @@ The deadline for submissions is **Monday, 22th of February**. _Submissions will 
 
 ## Submissions
 
-[Submit your test here](https://forms.gle/UcqQkBqCCvZhi7pe8)
+[Submit your test here](https://forms.gle/RU1EPST4j9Dwg2oG6)
