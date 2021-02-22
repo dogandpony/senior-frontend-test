@@ -1,0 +1,16 @@
+@import url('../../../node_modules/font-proxima-nova/style.css');
+
+@tailwind base;
+@tailwind components;
+
+@import './buttons/__index.css';
+@import './typography/__index.css';
+
+html, body {
+    height: 100%; 
+}
+body {
+    margin: 0;
+}
+
+@tailwind utilities;

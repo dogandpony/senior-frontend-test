@@ -1,0 +1,92 @@
+<template>
+  <label :for="placeholder" class="block relative py-4">
+    <BodyText class="text-gray-700 mb-2">{{ label }}{{ required ? ' *' : ''}}</BodyText>
+    <input
+      class="form-input mt-1 block w-full rounded-md border-primary"
+      :class="error ? 'border-accent-red text-accent-red pr-8' : ''"
+      :placeholder="placeholder"
+      :type="type"
+      :value="value"
+      @input="$emit('input', $event.target.value)" />
+    <svg
+      v-show="error"
+      class="absolute right-4 top-12"
+      width="16" height="16"
+      viewBox="0 0 16 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M16 8C16 10.1217 15.1571 12.1566 13.6569 13.6569C12.1566
+          15.1571 10.1217 16 8 16C5.87827 16 3.84344 15.1571 2.34315
+          13.6569C0.842855 12.1566 0 10.1217 0 8C0 5.87827 0.842855
+          3.84344 2.34315 2.34315C3.84344 0.842855 5.87827 0 8
+          0C10.1217 0 12.1566 0.842855 13.6569 2.34315C15.1571 3.84344
+          16 5.87827 16 8ZM9 12C9 12.2652 8.89464 12.5196 8.70711
+          12.7071C8.51957 12.8946 8.26522 13 8 13C7.73478 13 7.48043
+          12.8946 7.29289 12.7071C7.10536 12.5196 7 12.2652 7 12C7
+          11.7348 7.10536 11.4804 7.29289 11.2929C7.48043 11.1054
+          7.73478 11 8 11C8.26522 11 8.51957 11.1054 8.70711
+          11.2929C8.89464 11.4804 9 11.7348 9 12ZM8 3C7.73478 3 7.48043
+          3.10536 7.29289 3.29289C7.10536 3.48043 7 3.73478 7 4V8C7
+          8.26522 7.10536 8.51957 7.29289 8.70711C7.48043 8.89464 7.73478
+          9 8 9C8.26522 9 8.51957 8.89464 8.70711 8.70711C8.89464 8.51957
+          9 8.26522 9 8V4C9 3.73478 8.89464 3.48043 8.70711 3.29289C8.51957
+          3.10536 8.26522 3 8 3Z" fill="#FF7B92"/>
+    </svg>
+    <MicroText
+      v-show="error"
+      :class="error ? ' text-accent-red' : ''"
+      class="text-xs mt-1 tracking-wide absolute">
+        {{ errorMessage }}
+    </MicroText>
+  </label>
+</template>
+
+<script>
+import BodyText from '../../atoms/typography/BodyText.vue';
+import MicroText from '../../atoms/typography/MicroText.vue';
+
+export default {
+  name: 'TextInput',
+  components: {
+    BodyText,
+    MicroText,
+  },
+  model: {
+    event: 'input',
+  },
+  props: {
+    placeholder: {
+      type: String,
+      default: '',
+    },
+    required: {
+      type: Boolean,
+      default: false,
+    },
+    type: {
+      type: String,
+      default: 'text',
+    },
+    error: {
+      type: Boolean,
+      default: false,
+    },
+    errorMessage: {
+      type: String,
+      default: 'This field cannot be empty',
+    },
+    label: {
+      type: String,
+      default: '',
+    },
+    value: {
+      type: String,
+      default: '',
+    },
+  },
+};
+
+</script>

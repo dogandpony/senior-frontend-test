@@ -1,0 +1,7 @@
+.btn-primary {
+    @apply bg-accent-blue text-white;
+}
+
+.btn-primary:disabled {
+    @apply bg-primary cursor-not-allowed;
+}

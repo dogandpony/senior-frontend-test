@@ -1,0 +1,3 @@
+.mirco-text {
+    @apply text-primary text-xs leading-micro;
+}

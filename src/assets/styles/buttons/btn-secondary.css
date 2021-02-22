@@ -1,0 +1,11 @@
+.btn-secondary {
+    @apply bg-transparent text-primary-dark border-primary-dark border;
+}
+
+.btn-secondary:hover {
+    @apply  text-white;
+}
+
+.btn-secondary:disabled {
+    @apply cursor-not-allowed bg-transparent text-primary-dark;
+}

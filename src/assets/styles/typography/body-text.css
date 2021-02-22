@@ -1,0 +1,3 @@
+.body-text {
+    @apply text-primary text-base leading-3 tracking-meta;
+}

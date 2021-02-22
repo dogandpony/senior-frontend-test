@@ -1,0 +1,7 @@
+.link-text {
+    @apply text-accent-blue hover:text-primary-dark no-underline text-base leading-3 tracking-meta leading-6 transition duration-300 ease-in-out;
+}
+
+.link-text:hover {
+    @apply text-primary-dark;
+}

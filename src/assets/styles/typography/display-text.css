@@ -1,0 +1,3 @@
+.display-text {
+    @apply text-accent-blue text-center text-display leading-display;
+}
