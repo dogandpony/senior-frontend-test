@@ -1,5 +1,8 @@
 # tailwind-vue-example
 
+Live demo: www.officeslist.surge.sh
+
+Storybook: http://officesb.surge.sh/
 ## Project setup
 ```
 yarn install
