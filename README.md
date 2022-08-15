@@ -9,7 +9,7 @@ This test consists of a series of tasks which may take between 2–4 hours to co
 
 ## Scenario
 
-To recreate the design and functionality of a generic office-listings page. Please navigate through the [interactive prototype](https://www.figma.com/proto/VU2BJHrMmoSEdQmMa1EbYP/Front-end-Test?node-id=2253%3A2129&viewport=-4357%2C528%2C0.5&scaling=min-zoom) to better understand the scope and requirements. 
+To recreate the design and functionality of a generic office-listings page. Please navigate through the [interactive prototype](https://www.figma.com/proto/VU2BJHrMmoSEdQmMa1EbYP/Front-end-Test?node-id=2253%3A2129&viewport=-4357%2C528%2C0.5&scaling=min-zoom) to better understand the scope and requirements.
 
 
 ## Tasks
@@ -27,9 +27,7 @@ To recreate the design and functionality of a generic office-listings page. Plea
 
 ## Deadline
 
-Please submit your test as a Github repository URL, along with a readme file containing instructions on how to set up and run your application. If you'd like to submit a _private repository_, please add [Fez](https://github.com/felipesnts) and [Bill](https://github.com/billaddison) with view access to the private repository. 
-
-The deadline for submissions is **Monday, 16th of August**. _Submissions will not be accepted after this date._ Applications will be evaluated in order of receipt. For applicants who meet our requirements, interviews will be conducted as soon as the test has been evaluated. Note we have a limit of 3 positions available. 
+Please submit your test as a Github repository URL, along with a readme file containing instructions on how to set up and run your application. If you'd like to submit a _private repository_, please add [Fez](https://github.com/felipesnts) and [Bill](https://github.com/billaddison) with view access to the private repository.
 
 
 ## Tips
