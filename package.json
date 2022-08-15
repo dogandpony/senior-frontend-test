@@ -1,5 +1,9 @@
 {
   "name": "dps-senior-frontend-test",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
