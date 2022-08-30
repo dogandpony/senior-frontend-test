@@ -3,6 +3,7 @@
 	<div class="max-w-xs mt-40 flex justify-center flex-col">
 		<Title title="Offices" />
 	<nuxt />
+	<Footer />
 	</div>
 </div>
 </template>
