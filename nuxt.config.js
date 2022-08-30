@@ -1,28 +1,35 @@
-
 export default {
-	mode: 'universal',
+	mode: "universal",
+
+	components: true,
 
 	/*
 	 * Headers of the page
 	 */
 	head: {
-		title: process.env.npm_package_name || '',
+		title: process.env.npm_package_name || "",
 		meta: [
-			{ charset: 'utf-8' },
-			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
-			{ hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+			{ charset: "utf-8" },
+			{
+				name: "viewport",
+				content: "width=device-width, initial-scale=1",
+			},
+			{
+				hid: "description",
+				name: "description",
+				content: process.env.npm_package_description || "",
+			},
 		],
-		link: [
-			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-		]
+		link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+		bodyAttrs: {
+			class: "min-h-screen bg-gray-100",
+		},
 	},
 
 	/*
 	 * CSS
 	 */
-	css: [
-		'@/assets/css/main.css',
-	],
+	css: ["@/assets/css/main.css"],
 
 	/*
 	 * Plugins to load before mounting the App
@@ -33,9 +40,9 @@ export default {
 	 * Nuxt.js dev-modules
 	 */
 	buildModules: [
-		'@nuxt/postcss8',
+		"@nuxt/postcss8",
 		// Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-		'@nuxtjs/tailwindcss'
+		"@nuxtjs/tailwindcss",
 	],
 
 	/*
@@ -56,7 +63,6 @@ export default {
 		/*
 		 * You can extend webpack config here
 		 */
-		extend (config, ctx) {
-		}
-	}
-}
+		extend(config, ctx) {},
+	},
+};
