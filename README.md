@@ -24,11 +24,13 @@ To recreate the design and functionality of a generic office-listings page. Plea
     1. While adding or editing an office, the “Save” button should be disabled until all fields have been validated
     1. “Delete office” (remove office from list)
 
+## Project Setup Instructions
 
-## Deadline
+NODE Version: 16
 
-You´ll have up to 7 consecutive days to work on the test. Please submit your test as a Github repository URL, along with a readme file containing instructions on how to set up and run your application. If you'd like to submit a _private repository_, please add [Fez](https://github.com/felipesnts) and [Bill](https://github.com/billaddison) with view access to the private repository.
+Install Dependencies: `npm install`
 
+Run in dev mode: `npm run dev`
 
 ## Tips
 
@@ -39,6 +41,9 @@ You´ll have up to 7 consecutive days to work on the test. Please submit your te
 - Feel free to validate fields according to your own validation logic
 - Verify the full functionality of your application prior to submission
 
+## Deadline
+
+You´ll have up to 7 consecutive days to work on the test. Please submit your test as a Github repository URL, along with a readme file containing instructions on how to set up and run your application. If you'd like to submit a _private repository_, please add [Fez](https://github.com/felipesnts) and [Bill](https://github.com/billaddison) with view access to the private repository.
 
 ## Submissions
 
