@@ -12,7 +12,9 @@
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^3.4.2",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.3",
+    "vue-uuid": "^3.0.0",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@nuxt/postcss8": "^1.1.3",

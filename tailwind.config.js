@@ -14,6 +14,7 @@ module.exports = {
 			},
 			colors: {
 				"accent-blue": "#33A6BA",
+				"dark-blue": "#313E4F",
 			},
 		},
 	},
