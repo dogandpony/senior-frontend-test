@@ -13,6 +13,10 @@
 		  }
 	  },
     methods: {
+      clearInputs () {
+        this.title = ''
+        this.address = ''
+      },
       checkIfFilled () {
         this.isFormFilled = this.title.length > 0 && this.address.length > 0;
       },
@@ -30,7 +34,8 @@
               address: this.address,
             }
           });
-          this.$parent.toggleEditing();
+          this.$parent.toggleEditing()
+          this.clearInputs()
         }
     }
   },
