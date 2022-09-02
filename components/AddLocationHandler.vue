@@ -1,4 +1,21 @@
+<script>
+	export default {
+	  data() {
+		return {
+        editing: false
+		  }
+	  },
+    methods: {
+      toggleEditing () {
+        this.editing = !this.editing;
+    }
+  },
+	}
+	</script>
 
 <template>
-	<div>Location</div>
+  <div>
+    <AddButton v-show="!editing" />
+    <AddForm v-show="editing" />
+  </div>
 </template>
