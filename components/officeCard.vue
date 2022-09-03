@@ -27,7 +27,7 @@
 
 <template>
 	<div class="shadow-xl bg-white rounded-lg overflow-hidden">
-	<div role="button" class="flex p-6 justify-between transition ease-out delay-300 shadow-lg" :class="{'bg-gray-500': !closed}" @click="closed = !closed">
+	<div role="button" class="flex p-6 justify-between transition ease-out delay-300 shadow-lg" :class="{'bg-gray-500': !closed}" data-testid="office-card" @click="closed = !closed" >
 		<div >
 			<h4 class="font-bold text-2xl leading-8 transition ease-out delay-300" :class="{'text-white': !closed, 'text-dark-blue': closed}">{{location.locationName}}</h4>
 			<p class="font-normal text-base leading-6 transition ease-out delay-300" :class="{'text-white': !closed, 'text-gray-500': closed}">{{location.address}}</p>
@@ -38,7 +38,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="overflow-hidden transition ease-out delay-300 max-h-full" :class="{'max-h-0' : closed}">
+	<div class="overflow-hidden transition ease-out delay-300 max-h-full" :class="{'max-h-0' : closed}" data-testid="description">
 		<ul class="p-6">
 			<li>{{location.name}}</li>
 			<li>{{location.title}}</li>
