@@ -15,7 +15,7 @@
 
 <template>
   <div>
-    <AddButton v-show="!editing" />
-    <AddForm v-show="editing" />
+    <FormAddButton v-show="!editing" />
+    <FormAddForm v-show="editing" />
   </div>
 </template>
