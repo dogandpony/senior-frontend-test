@@ -1,28 +1,28 @@
 <script>
 	export default {
-	  props: {
-		location: Object,
-	  },
-	  data() {
-		return {
-			  closed: true
-		  }
-	  },
-    methods: {
-      deleteLocation () {
-        this.$store.commit({
-          type: 'deleteLocation',
-          locationId: this.location.id
-        });
+    props: {
+        location: Object,
     },
-    updateLocation () {
-        this.$store.commit({
-          type: 'updateLocation',
-          locationId: this.location.id
-        });
-    }
-  },
-	}
+    data() {
+        return {
+            closed: true
+        };
+    },
+    methods: {
+        deleteLocation() {
+            this.$store.commit({
+                type: "deleteLocation",
+                locationId: this.location.id
+            });
+        },
+        updateLocation() {
+            this.$store.commit({
+                type: "updateLocation",
+                locationId: this.location.id
+            });
+        }
+    },
+}
 	</script>
 
 <template>
@@ -34,9 +34,7 @@
 		</div>
 		<div class="flex items-center">
 			<div class="transition ease-out delay-300" :class="{'-rotate-180': !closed , 'text-accent-blue': closed,  'text-white': !closed}" >
-				<svg width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path d="M1 1L9 9L17 1" class="stroke-current" stroke-linecap="round" stroke-linejoin="round"/>
-				</svg>
+				<IconsChevronIcon />
 			</div>
 		</div>
 	</div>
