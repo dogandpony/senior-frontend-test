@@ -43,7 +43,7 @@ Run in dev mode: `npm run dev`
 
 ## Deadline
 
-You´ll have up to 7 consecutive days to work on the test. Please submit your test as a Github repository URL, along with a readme file containing instructions on how to set up and run your application. If you'd like to submit a _private repository_, please add [Fez](https://github.com/felipesnts) and [Bill](https://github.com/billaddison) with view access to the private repository.
+You´ll have up to 7 consecutive days to work on the test. Please submit your test as a Github repository URL, along with a readme file containing instructions on how to set up and run your application. If you'd like to submit a _private repository_, please add [Fez](https://github.com/felipesnts), [Pam](https://github.com/PamTurk), and [Bill](https://github.com/billaddison) with view access to the private repository.
 
 ## Submissions
 
