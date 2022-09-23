@@ -47,4 +47,4 @@ You´ll have up to 7 consecutive days to work on the test. Please submit your te
 
 ## Submissions
 
-# [Submit your test here →](https://forms.gle/RU1EPST4j9Dwg2oG6)
+# [Submit your test here →](https://forms.gle/ugQgjFTvDnAWutjZ8)
