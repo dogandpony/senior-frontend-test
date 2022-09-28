@@ -14,7 +14,7 @@ To recreate the design and functionality of a generic office-listings page. Plea
 
 ## Tasks
 
-1. Fork this repository (to jump-start your test)
+1. Download the source code for this repository and add the code base to a private repository of your own
 1. Recreate [the design](https://www.figma.com/file/VU2BJHrMmoSEdQmMa1EbYP/Front-end-Test?node-id=2253%3A2129) using [Vue.js](https://vuejs.org/) and [TailwindCSS](https://tailwindcss.com/)
 1. Populate the office listings from a datasource (JSON or hard-coded array)
 1. Recreate the following interactivity
